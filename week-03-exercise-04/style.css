@@ -1,0 +1,33 @@
+/* 
+  Color palette sourced from Google Arts & Culture Art Palette:
+   https://artsexperiments.withgoogle.com/artpalette/colors/95928a-73757a-cec7af-bab094-4d5366 
+*/
+
+* { box-sizing: border-box; }
+
+body {
+    font-family: Georgia, serif;
+    background-color: #4d5366;
+    margin: 0;
+    padding: 16px;
+}
+
+.card {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #cec7af;
+    border: 4px solid #95928a;
+}
+ 
+h1 {
+    color: #4d5366;
+    font-size: 40px;
+    margin: 10px;
+}
+ 
+p {
+    color: #73757a;
+    font-size: 15px;
+    margin: 15px;
+}
