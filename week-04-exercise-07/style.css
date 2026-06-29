@@ -64,7 +64,7 @@ main>p {
     width: 100%;
     height: auto;
     display: block;
-    border: 1px solid #95928a;
+    border: 0px;
     border-radius: 2px;
     margin-bottom: 16px;
 }
