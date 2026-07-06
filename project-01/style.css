@@ -228,3 +228,30 @@ section {
     font-size: 0.85rem;
     color: var(--color-border);
 }
+
+/* Responsive - Mobile */
+
+@media (max-width: 640px) {
+    .style-header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: var(--space-md);
+    }
+ 
+    .style-nav ul {
+        gap: var(--space-sm);
+    }
+ 
+    main {
+        padding: var(--space-lg) var(--space-sm);
+        gap: var(--space-lg);
+    }
+ 
+    .card-grid {
+        flex-direction: column;
+    }
+ 
+    h2 {
+        font-size: 1.5rem;
+    }
+}
