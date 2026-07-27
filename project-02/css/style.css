@@ -520,10 +520,7 @@ section {
     }
 
     .timeline-content::before {
-        left: -20px;
-        right: auto;
-        border-right-color: var(--color-cream);
-        border-left-color: transparent;
+        display: none;
     }
 
     .timeline-container::after {
