@@ -4,12 +4,13 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Projects | Chris Germain</title>
+        <link href="https://fonts.googleapis.com/css2?family=Fraunces&family=Inter&display=swap" rel="stylesheet" />
         <link rel="stylesheet" href="../css/style.css" />
     </head>
     <body>
-        <header class="site-header">
-            <h1 class="site-title">Chris Germain</h1>
-            <nav class="site-nav">
+        <header class="style-header">
+            <h1 class="style-title">Chris Germain</h1>
+            <nav class="style-nav">
                 <ul>
                     <li><a href="../index.html">Home</a></li>
                     <li><a href="../about.html">About</a></li>
@@ -20,12 +21,74 @@
         </header>
 
         <main>
-            <section class="projects">
-                <h2>Add content</h2>
+              <section class="projects">
+                <h2>Projects and Work</h2>
+                <p>
+                    A mix of the infrastructure work that has defined my career, and the 
+                    home automation project I work on in my spare time.
+                </p>
+                <div class="card-grid">
+                    <article class="project-card">
+                        <img
+                            src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&h=400&fit=crop"
+                            alt="Rows of servers in a data center"
+                        />
+                        <h3>Streaming Infrastructure at Disney &amp; ESPN</h3>
+                        <p>
+                            Leading network engineering for the encoding and content delivery 
+                            systems that carry Disney's streaming services from origin to 
+                            viewer, reliably and at scale.
+                        </p>
+                    </article>
+
+                    <article class="project-card">
+                        <img
+                            src="https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=600&h=400&fit=crop"
+                            alt="Live sports broadcast on a video wall"
+                        />
+                        <h3>Building BAMTECH's Streaming Platform</h3>
+                        <p>
+                            Led the development of the network architecture for the network 
+                            behind ESPN+ and Disney+.
+                        </p>
+                    </article>
+
+                    <article class="project-card">
+                        <img
+                            src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=600&h=400&fit=crop"
+                            alt="Team meeting around a table with laptops"
+                        />
+                        <h3>Growing as a Technical Leader</h3>
+                        <p>
+                            Progressed from Sr. Network Architect to Senior Manager to 
+                            Director, building and leading the network engineering teams 
+                            behind that infrastructure.
+                        </p>
+                    </article>
+
+                    <article class="project-card">
+                        <img
+                            src="https://images.unsplash.com/photo-1722488359737-7a9b8a8436c7?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="Home lights, cameras, and sensors"
+                        />
+                        <h3>Home Automation Knowledgebase</h3>
+                        <p>
+                            Continuing to build a home automation system and documenting to components nad features.
+                        </p>
+                        <a href="https://chgermai.github.io/cmpa-3302/" class="card-link">DIY Home Automation Knowledge Base</a>
+                    </article>
+                </div>
             </section>
         </main>
 
-        <footer class="site-footer">
+        <footer class="site-footer" id="contact">
+            <p>
+                Get in touch:
+                <a href="mailto:chgermai@ttu.edu">chgermai@ttu.edu</a>
+            </p>
+            <p>
+                <a href="../index.html">Back to Homepage</a>
+            </p>
             <p class="footer-note">&copy; 2026 Chris Germain</p>
         </footer>
     </body>
