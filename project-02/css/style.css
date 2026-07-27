@@ -525,4 +525,9 @@ section {
         border-right-color: var(--color-cream);
         border-left-color: transparent;
     }
+
+    .timeline-container::after {
+        left: 10px;
+        right: auto;
+    }
 }
