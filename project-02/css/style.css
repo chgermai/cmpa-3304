@@ -506,4 +506,23 @@ section {
     h2 {
         font-size: 1.5rem;
     }
+
+    .timeline::after {
+        left: 20px;
+    }
+
+    .timeline-container,
+    .timeline-container.right {
+        width: 100%;
+        left: 0;
+        padding-left: 50px;
+        padding-right: var(--space-sm);
+    }
+
+    .timeline-content::before {
+        left: -20px;
+        right: auto;
+        border-right-color: var(--color-cream);
+        border-left-color: transparent;
+    }
 }
